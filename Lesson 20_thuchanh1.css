@@ -1,0 +1,43 @@
+*{margin: 0px; padding: 0px;}
+#wrap{
+	width: 100%;
+	min-height: 1000px;
+	background-image: linear-gradient(#7F6F50, #ffffff);	
+}
+#main{
+	width: 960px;
+	min-height: 900px;
+	background: #fc6b6b;
+	margin: auto;
+}
+header{
+	width: 100%;
+	height: 318px;
+	background: #999898;
+}
+section{
+	width: 100%;
+	height: 318px;
+	background: url("imgs/heading.png") no-repeat;
+	position: relative;
+	top: -90px;
+}
+#heading{
+	width: 100%;
+	height: 180px;
+	background: #e1c78c;
+}
+#content{
+	width: 100%;
+	height: 180px;
+	background-color: #5BD64B;
+	position: relative;
+	top: -50px;
+}
+footer{
+	width: 100%;
+	height: 318px;
+	background: url("imgs/sky-line.png") center no-repeat;
+	position: fixed;
+	bottom: 0px;
+}
